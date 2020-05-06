@@ -1,0 +1,143 @@
+object Form1: TForm1
+  Left = 253
+  Height = 240
+  Top = 136
+  Width = 385
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 385
+  LCLVersion = '2.0.8.0'
+  object lbValor1: TLabel
+    Left = 64
+    Height = 23
+    Top = 25
+    Width = 52
+    AutoSize = False
+    Caption = 'Valor1'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbValor2: TLabel
+    Left = 64
+    Height = 23
+    Top = 72
+    Width = 48
+    AutoSize = False
+    Caption = 'Valor2'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 48
+    Height = 25
+    Top = 120
+    Width = 68
+    AutoSize = False
+    Caption = 'Resultado'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = '@Microsoft YaHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtValor1: TEdit
+    Left = 136
+    Height = 24
+    Top = 25
+    Width = 80
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edtValor2: TEdit
+    Left = 136
+    Height = 24
+    Top = 72
+    Width = 80
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnSoma: TButton
+    Left = 272
+    Height = 25
+    Top = 23
+    Width = 51
+    Caption = '+'
+    OnClick = btnSomaClick
+    TabOrder = 2
+  end
+  object btnSubtracao: TButton
+    Left = 272
+    Height = 25
+    Top = 56
+    Width = 51
+    Caption = '-'
+    OnClick = btnSubtracaoClick
+    TabOrder = 3
+  end
+  object btnMultiplicacao: TButton
+    Left = 272
+    Height = 25
+    Top = 88
+    Width = 51
+    Caption = '*'
+    OnClick = btnMultiplicacaoClick
+    TabOrder = 4
+  end
+  object btnDivisao: TButton
+    Left = 272
+    Height = 25
+    Top = 120
+    Width = 51
+    Caption = '/'
+    OnClick = btnDivisaoClick
+    TabOrder = 5
+  end
+  object edtResultado: TEdit
+    Left = 136
+    Height = 25
+    Top = 120
+    Width = 80
+    AutoSize = False
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+  end
+end
